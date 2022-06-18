@@ -11,58 +11,58 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // Create a function to generate markdown for README
-    function generateMarkDown(data) {
+function generateMarkDown(data) {
+return `
 
-        return `
-        # ${data.title}
-      
-        ## Description
-      
-        ${data.description}
-      
-        ## Table of content
-        - [Installation](#Installation)
-        - [Usage](#Usage)
-        - [License](#License)
-        - [Contributing](#Contributing)
-        - [Tests](#Tests)
-        - [Questions](#Questions)
-      
-       ## Installtion
-       
-       To install dependencies, run the following;
-      
-       \`
-       ${data.installation}
-       \`
-      
-       ## Usage
-      
-       ${data.usage}
-      
-       ## License
-      
-       ## Contributing
-      
-       ${data.contribution}
-      
-       ## Tests
-      
-        To run Test, run the following:
-      
-        \`
-        ${data.tests}
-        \`
-      
-        ## Questions
-      
-        Please Contact me at 
-        Email : [${data.email}](mailto:${data.email}).
-        GitHub : [${data.github}](https://github.com/${data.github}) 
-      
-      `;
-      }
+# ${data.title}
 
- 
+## Description
+
+${data.description}
+
+## Table of content
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installtion
+
+To install dependencies, run the following;
+
+\`
+${data.installation}
+\`
+
+## Usage
+
+${data.usage}
+
+## License
+
+## Contributing
+
+${data.contribution}
+
+## Tests
+
+To run Test, run the following:
+
+\`
+${data.tests}
+\`
+
+## Questions
+
+Please Contact me at
+Email : [${data.email}](mailto:${data.email}).
+GitHub : [${data.github}](https://github.com/${data.github})
+
+`;
+}
+
+
 
 module.exports = generateMarkDown;

@@ -63,6 +63,13 @@ function init() {
     .then((answers)=>{
         // console.log(answers);
         const mark = MarkDown(answers);
+        fs.writeFile('./output/README.md',mark,function(err){
+            if(err){
+                console.log('Could not save file',err);
+            }else {
+                console.log("New README.md file generated inside the output folder");
+            }
+        })
 
         console.log(mark)
         return answers;
