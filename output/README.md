@@ -1,10 +1,12 @@
 
 
-# futurama
+# kajkaj
+
+[![License: GNUGPLv3](https://img.shields.io/badge/License-GNU--GPLv3-blue?style=flat&logo=appveyor)](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Description
 
-sjkndndnjkdendjdekdnenenjkeweehffhhfhfhhfhfhfhhfhfhhfhfhfhfhhfhfhfhhfhhhhfhfhhfhfhfhhfhhfhfhfhhfhfhhfhfhfhhfhfhfh
+sjdjd
 
 ## Table of content
 - [Installation](#Installation)
@@ -19,30 +21,34 @@ sjkndndnjkdendjdekdnenenjkeweehffhhfhfhhfhfhfhhfhfhhfhfhfhfhhfhfhfhhfhhhhfhfhhfh
 To install dependencies, run the following;
 
 `
-hdhduehfuyeffubfhufuhbfuhfuhfbuuffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+dhudhu
 `
 
 ## Usage
 
-hreuuuuuuuuuuuuuuuuufhjbjfbjhjfbvjbf
+djdjd
 
 ## License
 
+Licensed under the [GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/) License.
+
 ## Contributing
 
-jhhiuhfurhfhjhbhjsbhufyuurf
+dd
 
 ## Tests
 
 To run Test, run the following:
 
 `
-ehfu
+d
 `
 
 ## Questions
 
-Please Contact me at
-Email : [hdjeu](mailto:hdjeu).
-GitHub : [ehuf](https://github.com/ehuf)
+Please Contact me at 
+
+Email : [dwdd](mailto:dwdd). 
+
+GitHub : [dd](https://github.com/dd)
 

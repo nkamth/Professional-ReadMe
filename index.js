@@ -50,7 +50,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'License ?',
-        choices:['MIT','ISC','GNU GPLv3'],
+        choices:['MIT','ISC','GNUGPLv3','Apache'],
         filter(val){
             return val.toLowerCase();
         }
