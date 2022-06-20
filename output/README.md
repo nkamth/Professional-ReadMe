@@ -1,14 +1,13 @@
+# Professional README Generator
 
-
-# kajkaj
-
-[![License: GNUGPLv3](https://img.shields.io/badge/License-GNU--GPLv3-blue?style=flat&logo=appveyor)](https://choosealicense.com/licenses/gpl-3.0/)
+[![License: ISC](https://img.shields.io/badge/License-ISC-red?style=flat&logo=appveyor)](https://choosealicense.com/licenses/isc/)
 
 ## Description
 
-sjdjd
+The purpose of this app is to demonstrate readme generator that use a consistant format.
 
 ## Table of content
+
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License)
@@ -18,37 +17,30 @@ sjdjd
 
 ## Installtion
 
-To install dependencies, run the following;
-
-`
-dhudhu
-`
+`download it through github. Ensure inquirer is installed.`
 
 ## Usage
 
-djdjd
+run node index.js in command line
 
 ## License
 
-Licensed under the [GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/) License.
+Licensed under the [ISC](https://choosealicense.com/licenses/isc/) License.
 
 ## Contributing
 
-dd
+Fork the repo and use a pull request
 
 ## Tests
 
 To run Test, run the following:
 
-`
-d
-`
+`npm run test`
 
 ## Questions
 
-Please Contact me at 
+Please Contact me at
 
-Email : [dwdd](mailto:dwdd). 
+Email : [namitha.289@gmail.com](mailto:namitha.289@gmail.com).
 
-GitHub : [dd](https://github.com/dd)
-
+GitHub : [nkamth](https://github.com/nkamth)

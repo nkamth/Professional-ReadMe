@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     const badges ={
@@ -7,11 +7,14 @@ function renderLicenseBadge(license) {
         gnugplv3:'[![License: GNUGPLv3](https://img.shields.io/badge/License-GNU--GPLv3-blue?style=flat&logo=appveyor)](https://choosealicense.com/licenses/gpl-3.0/)',
         apache:'[![License: Apache](https://img.shields.io/badge/License-Apache-yellowgreen?style=flat&logo=appveyor)](https://choosealicense.com/licenses/apache-2.0/)'
     }
-    
-    return badges[license];
+    if(!license){
+        return " ";
+    }else {
+        return badges[license];
+    }
 }
 
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     const licenseLinks ={
@@ -20,18 +23,23 @@ function renderLicenseLink(license) {
         gnugplv3:'[GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/)',
         apache:'[Apache](https://choosealicense.com/licenses/apache-2.0/)'
     }
-    return licenseLinks[license];
+
+    if(!license){
+        return " ";
+    }else {
+        return licenseLinks[license];
+    }
 }
 
-// TODO: Create a function that returns the license section of README
+// Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     const licenseLink = renderLicenseLink(license)
-    if(license){
-        return `Licensed under the ${licenseLink} License.`
+    if(!license){
+        return " ";
     }
     else{
-        return ``;
+        return `Licensed under the ${licenseLink} License.`;
     }
 }
 
@@ -60,8 +68,6 @@ ${data.description}
 - [Questions](#Questions)
 
 ## Installtion
-
-To install dependencies, run the following;
 
 \`
 ${data.installation}
